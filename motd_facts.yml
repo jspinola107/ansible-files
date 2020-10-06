@@ -1,6 +1,6 @@
 ---
     - name: Fill motd file with host data
-      hosts: node1
+      hosts: all
       become: true
       tasks:
         - template:
